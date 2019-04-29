@@ -1,5 +1,3 @@
-# tech test
-
 ## usage
 Use Node v10+ (npm 6+)
 
