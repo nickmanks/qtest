@@ -58,7 +58,7 @@ npx run test
 
 ## error testing
 
-* Inside `src/faq/index`, `src/home/index` and `src/loader/index` you can append a delay and error parameter to the useService function test delays and error notification (see [useService hook]('./hooks/index.js'))
+* Inside `src/faq/index`, `src/home/index` and `src/loader/index` you can append a delay and error parameter to the useService function test delays and error notification (see [useService hook](./hooks/index.js))
 
 ## if I had more time / production-ready
 
