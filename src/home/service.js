@@ -19,14 +19,14 @@ export default (loadTime = defaultLoadTime, simulateError = false)=> ({
 
     const {data} = await graphClient.query({
       query: gql`
-      query {
-        home {
-          id,
-          title,
-          description,
-          dealImg
+        query {
+          home {
+            id
+            title
+            description
+            dealImg
+          }
         }
-      }
       `,
       variables: {}
     });
