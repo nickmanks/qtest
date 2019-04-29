@@ -1,0 +1,159 @@
+.spinner-container {
+  margin: auto;
+  margin-bottom: 50%;
+  margin-top: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.spinner {
+  animation: sk-fade-in 0s;
+
+  > div {
+    background-color: $colour-primary;
+  }
+}
+
+.heading-container {
+  min-width: 40rem;
+  text-align: center;
+
+  @include for-little-screens {
+    min-width: unset;
+    text-align: center;
+  }
+}
+
+.hero-image {
+  max-height: 50rem;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+  z-index: -100;
+}
+
+.home-image {
+  margin-top: -16.5rem;
+  width: 100%;
+
+  @include for-little-screens {
+    margin-top: -25.5rem;
+    opacity: 0;
+  }
+}
+
+.home-container {
+  max-width: 65rem;
+  min-width: 55rem;
+  position: absolute;
+  right: 0%;
+  top: 5rem;
+  width: 50%;
+  z-index: 100;
+
+  @include for-tablet-portrait-up {
+    right: -16%;
+  }
+
+  @include for-tablet-landscape-up {
+    right: -14%;
+  }
+
+  @include for-desktop-up {
+    right: -10%;
+  }
+
+  @include for-big-desktop-up {
+    right: -6%;
+  }
+
+  @include for-little-screens {
+    background-color: $colour-primary;
+
+    max-width: unset;
+    min-width: unset;
+    position: unset;
+    right: unset;
+    top: unset;
+    width: 100%;
+    z-index: 100;
+  }
+}
+
+.home-heading {
+  color: $colour-white;
+  left: 20%;
+  padding-top: 5%;
+  position: relative;
+  width: 60%;
+  z-index: 100;
+
+  @include for-little-screens {
+    color: $colour-white;
+    left: unset;
+
+    width: unset;
+    z-index: 100;
+  }
+}
+
+.heading-error {
+  color: $colour-white;
+  left: 20%;
+  padding-top: 8%;
+  position: relative;
+  width: 60%;
+  z-index: 100;
+
+  @include for-little-screens {
+    color: $colour-white;
+    left: unset;
+
+    width: unset;
+    z-index: 100;
+  }
+}
+
+.home-description {
+  color: $colour-white;
+  left: 25%;
+  position: relative;
+  width: 50%;
+
+  @include for-little-screens {
+    color: $colour-white;
+    left: unset;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+
+    width: unset;
+  }
+}
+
+.home-button {
+  background-color: #0000;
+  border-color: $colour-white;
+  margin-top: 1rem;
+  position: relative;
+  z-index: 100;
+}
+
+.home-button:hover {
+  background-color: #0000;
+  border-color: $colour-white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px #e4000040;
+  transform: translateY(-5px);
+}
+
+.home-button:active {
+  background-color: #0000 !important;
+  border-color: $colour-white !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px #e4000040 !important;
+  transform: translateY(-5px);
+}
+
+.home-button:focus {
+  box-shadow: unset !important;
+  outline: none !important;
+}

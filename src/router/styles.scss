@@ -1,0 +1,39 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.not-found-div {
+  margin: auto;
+  margin-top: 5rem;
+  max-width: 40rem;
+  text-align: center;
+  width: 80%;
+}
+
+.not-found-img {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.not-found-button {
+  background-color: $colour-primary !important;
+  border-color: $colour-primary !important;
+  color: $colour-white !important;
+  margin-top: 5rem;
+}
+
+.not-found-button:hover {
+  background-color: darken($colour-primary, 5) !important;
+  border-color: $colour-primary !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px #e4000040 !important;
+  color: $colour-white !important;
+  margin-top: 5rem;
+}
+
+.not-found-title {
+  font-weight: 600;
+  margin-bottom: 3rem;
+}

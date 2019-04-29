@@ -1,0 +1,23 @@
+.faqs-container {
+  margin-top: 3rem;
+}
+
+.faq-container {
+  margin-bottom: 2rem;
+}
+
+.spinner-container {
+  margin: auto;
+  margin-bottom: 20%;
+  margin-top: 20%;
+  position: relative;
+  text-align: center;
+}
+
+.spinner {
+  animation: sk-fade-in 0s;
+
+  > div {
+    background-color: $colour-primary;
+  }
+}
